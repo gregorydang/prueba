@@ -1,10 +1,450 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>gregorydango</title>
-</head>
-<body>
-prueba 
-</body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>SISTEMAS DE SEGURIDAD - SISEVE</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-eye-2-line nav__logo-icon"></i> SISEVE
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Servicios</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contacta con nosotros</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home2.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            SISTEMAS <br> DE SEGURAS 
+                        </h1>
+                        <p class="home__description">
+                            Instalaciones y soporte tecnico.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about_2.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Sobre  <br> nosotros
+                        </h2>
+
+                        <p class="about__description">
+                            SISEVE Sistemas de Seguridad cuenta con personal altamente
+                             capacitados con las últimas tecnologías para poder ofrecer una asesoría 
+                             del más alto nivel, así como un soporte y respaldo a toda la red de distribución. 
+                             La garantía de los productos es totalmente efectiva y rápida.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Puntualidad.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Responsabilidad.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Compromiso.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% trabajo garantizado.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                           Inicio <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Servicios y productos <br> que ofrecemos
+                </h2>
+
+                <p class="product__description">
+                    trabajos con las mejores marcas y brindando el mejor servicio.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product1_pc.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Servicio Tecnico de computadoras</h3>
+                        <span class="product__price"></span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2_cam.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Camaras de Seguridad</h3>
+                        <span class="product__price"></span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2_seg.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Sistemas de alarma</h3>
+                        <span class="product__price"></span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product4_cercos.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cercos Electricos</h3>
+                        <span class="product__price"></span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Preguntas Frecuentes <br> 
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 1
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 2
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                              
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 3
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                              
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 4
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                              
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 5
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                              
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pregunta Frecuente 6
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut natus dolor, consectetur veritatis quia sint explicabo? Velit eligendi tenetur earum quibusdam ea. Eligendi veritatis ut obcaecati porro libero quisquam?
+                              
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            
+
+
+Comuníquese con nosotros hoy! <br> a través de cualquiera de los datos <br>de información
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Llámenos para soporte</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +591 67441089
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Escribenos por correo</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    correo@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Correo</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Nombre</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Mensaje</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Enviar Mensaje
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-eye-2-line footer__logo-icon"></i> SISEVE
+                    </a>
+
+                    <h3 class="footer__title">
+                        Dejenos su correo <br> para enviarle nuestras promociones y ofertas de servicios.
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Introduzca su Correo" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Enviar!
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Direccion</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Cochabamba - Bolivia</li>
+                        <li class="footer__information">Ismael cespedes - Sacaba</li>
+                        <li class="footer__information">C.Mons Roberto Nicolie </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contacto</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+591 67551089</li>
+                        <li class="footer__information">+4-4701110</li>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Metodos de pago
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; sssssss. Todos los derechos reservados.</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
